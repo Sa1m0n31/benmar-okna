@@ -1,0 +1,212 @@
+@media(max-width: 1400px) {
+    .section--partners__main, .form, .contact__main {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .section--aboutUs__header, .contact__header {
+        font-size: 24px;
+    }
+
+    .section--aboutUs__text {
+        font-size: 14px;
+    }
+
+    .button--aboutUsSection {
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .section--numbers__number {
+        font-size: 48px;
+    }
+
+    .section--numbers__label, .secondHeader,
+    .section--page__text
+    {
+        font-size: 17px !important;
+    }
+
+    .section--flex__section__header {
+        font-size: 21px;
+    }
+
+    .section__redList li {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 996px) {
+    .section--aboutUs,
+    .section--numbers__main, .section--flex,
+    .form, .contact__main, .contact__item
+    {
+        flex-direction: column;
+    }
+
+    .section--flex figure {
+        margin-top: 50px;
+        max-width: 90%;
+    }
+
+    .section--numbers__header {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+
+    .section--numbers__item {
+        width: clamp(100px, 100%, 300px);
+    }
+
+    .section--numbers__x {
+        margin: 25px auto;
+        width: 30px;
+    }
+
+    .section--aboutUs__left, .section--aboutUs__imgWrapper {
+        width: 100%;
+    }
+
+    .section--aboutUs__imgWrapper {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .section--aboutUs__left {
+        order: 2;
+    }
+
+    .form__section {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .form__inputs {
+        width: 100%;
+    }
+
+    .form__submit {
+        height: 40px;
+        width: 250px;
+        font-size: 17px;
+    }
+
+    .contact__main {
+        align-items: center;
+    }
+
+    .contact__item {
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .contact__item__img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .contact__item__text h3 {
+        text-align: center;
+    }
+
+    .section--contact {
+        margin: 100px auto 30px;
+    }
+
+    .firstHeader {
+        margin: auto;
+        max-width: 90%;
+    }
+
+    .section__aboutTeam__item {
+        margin-left: 15vw;
+    }
+
+    .section__aboutTeam__item__text {
+        font-size: 14px;
+    }
+
+    .section--flex--aboutTeam {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .d-mobile {
+        display: block;
+    }
+
+    .d-desktop {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .footer__col {
+        margin-bottom: 10px;
+    }
+
+    .footer__col a, .footer__col h5, .footer__col h6 {
+        text-align: center !important;
+        font-size: 13px;
+    }
+
+    .section__header {
+        font-size: 24px;
+    }
+
+    .section--flex__section:last-of-type {
+        width: 100%;
+    }
+
+    .section--page__text, .section--page__text--small {
+        font-size: 14px !important;
+    }
+
+    .section--numbers {
+        margin-top: 60px;
+    }
+
+    .section--numbers__img {
+        max-width: 100px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .button--red {
+        margin-bottom: 20px;
+        max-width: 90vw;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .flex--portfolio .button--red:first-of-type {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .section--partners__arrow {
+        width: 20px;
+    }
+
+    .section--partners__main {
+        margin-top: 25px;
+    }
+
+    .form__submit {
+        width: 100%;
+    }
+
+    .contact__item__text h3 {
+        font-size: 17px;
+    }
+}
