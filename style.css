@@ -1,3 +1,26 @@
+/*!
+Theme Name: Benmarokna
+Theme URI: http://underscores.me/
+Author: Skylo.pl
+Author URI: http://underscores.me/
+Description: Theme for Benmar Okna company
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: benmarokna
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Benmarokna is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,8 +41,13 @@ html {
 }
 
 .section, .header, .hero__content, .hero__offer, .footer {
-    width: clamp(200px, 90vw, 1600px);
+    width: clamp(200px, 90%, 1600px);
     margin: auto;
+}
+
+.container {
+    overflow-x: hidden;
+    position: relative;
 }
 
 button, a {
@@ -54,12 +82,28 @@ button, a {
     align-items: center;
 }
 
+.mobileMenu {
+    display: none;
+}
+
+.mobileMenuOpen {
+    display: none;
+    width: 80%;
+}
+
 /* Header */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px clamp(20px, 8vw, calc(100vw - 1600px));
+    z-index: 10;
+    width: 100%;
+    border-bottom: 5px solid var(--primary);
+    background: #fff;
 }
 
 .header__logo {
@@ -121,11 +165,11 @@ button, a {
 .hero {
     width: 100%;
     height: auto;
-    border-top: 5px solid var(--primary);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
 }
 
 .hero__img {
@@ -135,7 +179,7 @@ button, a {
 .hero__content {
     position: absolute;
     z-index: 2;
-    top: 20vh;
+    top: 25vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -165,6 +209,11 @@ button, a {
     margin-top: 50px;
     color: #fff;
     max-width: 400px;
+    transition: .3s all;
+}
+
+.button--hero:hover {
+    background: var(--primary);
 }
 
 /* Hero offer */
@@ -174,7 +223,7 @@ button, a {
     align-items: center;
     position: relative;
     z-index: 3;
-    margin-top: -200px;
+    margin-top: calc(-1 * clamp(100px, 5vw, 200px));
 }
 
 .hero__offer__item {
