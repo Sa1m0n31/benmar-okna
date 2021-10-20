@@ -141,7 +141,7 @@ add_action( 'widgets_init', 'benmarokna_widgets_init' );
  */
 function benmarokna_scripts() {
 	wp_enqueue_style( 'benmarokna-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'benmarokna-style', get_stylesheet_directory_uri() . '/mobile.css', array(), _S_VERSION );
+	wp_enqueue_style( 'benmarokna-mobile', get_stylesheet_directory_uri() . '/mobile.css', array(), _S_VERSION );
 
 	wp_style_add_data( 'benmarokna-style', 'rtl', 'replace' );
 

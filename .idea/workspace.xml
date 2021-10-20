@@ -23,53 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2311d69f-9328-476d-a0bd-9b2e79d1f613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/custom-header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/jetpack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/template-functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/template-tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/benmarokna.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-nasze-realizacje.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-o-nas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-oferta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-none.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nasze-realizacje.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-nas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oferta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/siema.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/siema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/benmarokna.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/benmarokna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +93,7 @@
       <workItem from="1634674077539" duration="8255000" />
       <workItem from="1634726748698" duration="7644000" />
       <workItem from="1634761987773" duration="2975000" />
-      <workItem from="1634765064510" duration="2411000" />
+      <workItem from="1634765064510" duration="4385000" />
     </task>
     <servers />
   </component>

@@ -68,7 +68,7 @@ button, a {
 }
 
 .page {
-    border-top: 5px solid var(--primary);
+    margin-top: 5vh;
     padding-top: 5vh;
 }
 
@@ -130,6 +130,11 @@ button, a {
 .header__menu__link {
     text-transform: uppercase;
     font-weight: 600;
+    transition: .2s all;
+}
+
+.header__menu__link:hover {
+    opacity: .75;
 }
 
 .header__menu__contact {
@@ -403,6 +408,13 @@ button, a {
     position: relative;
 }
 
+#kontakt {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    display: block;
+}
+
 .form__inputs {
     width: 35%;
     margin-right: 20px;
@@ -549,6 +561,10 @@ button, a {
     margin-top: 40px;
 }
 
+.section--form {
+    position: relative;
+}
+
 .section--b2b {
     margin: 100px auto;
 }
@@ -584,7 +600,7 @@ button, a {
 }
 
 .section--flex__section:last-of-type {
-    width: 40%;
+    width: 30%;
 }
 
 .section--margin {
@@ -706,4 +722,10 @@ button, a {
 
 .flex--portfolio .button--red:first-of-type {
     margin-left: 0;
+}
+
+.map {
+    height: 400px;
+    margin-top: -30px;
+    margin-bottom: 40px;
 }
