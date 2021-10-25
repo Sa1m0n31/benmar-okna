@@ -28,7 +28,7 @@
             <img class="img--80" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/phone.svg'; ?>" alt="telefon" />
         </a>
 
-        <a class="header__logo" href="./index.html">
+        <a class="header__logo" href="<?php echo home_url(); ?>">
             <img class="img header__logo__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/benmarokna-logo.png'; ?>" alt="benmar-okna" />
         </a>
 
@@ -65,7 +65,7 @@
                 <span>
                     Zadzwoń do nas!
                 </span>
-                <a class="header__menu__contact__btn">
+                <a class="header__menu__contact__btn button--hover">
                     <img class="header__menu__contact__btn__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/phone.svg'; ?>" alt="telefon" />
                     731 731 201
                 </a>

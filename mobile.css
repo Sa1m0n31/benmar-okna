@@ -63,7 +63,7 @@
     }
 
     .hero__content__header {
-        font-size: 28px;
+        font-size: 21px;
     }
 
     .hero__content__subheader {
@@ -118,7 +118,8 @@
     }
 
     .section--numbers__item {
-        width: clamp(100px, 100%, 300px);
+        width: 90%;
+        max-width: 500px;
     }
 
     .section--numbers__x {
@@ -202,12 +203,12 @@
     }
 
     .header {
-        height: 90px;
-        padding: 20px 5vw;
+        height: 70px;
+        padding: 10px 5vw;
     }
 
     .hero {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     .header__mobilePhone {
@@ -235,7 +236,7 @@
     }
 
     .header__logo img {
-        height: 40px;
+        height: 30px;
         width: auto;
     }
 
@@ -260,10 +261,10 @@
 
     .mobileMenu {
         position: absolute;
-        top: 90px;
+        top: 70px;
         left: 0;
         width: 100%;
-        height: 200px;
+        height: 150px;
         background: #fff;
         z-index: 10;
     }
@@ -277,12 +278,13 @@
     }
 
     .mobileMenu__list__item {
-        margin: 10px auto;
+        margin: 5px auto;
     }
 
     .mobileMenu__list__link {
         text-transform: uppercase;
         font-weight: 600;
+        font-size: 14px;
     }
 
     .mobileMenu {

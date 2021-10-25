@@ -4,20 +4,20 @@ get_header();
 
 <main class="page">
     <section class="section">
-        <h1 class="section__header">
+        <h1 class="section__header" data-aos="flip-up">
             O firmie
         </h1>
-        <p class="section--page__text">
+        <p class="section--page__text" data-aos="fade-right">
             Od ponad 10 lat dostarczamy okna, drzwi, ogrodzenia i bramy dla firm i osób prywatnych. Naszym motto jest wysoka jakość i trwałość naszych produktów i montaży. Posiadamy nie tylko doświadczenie, ale również niezbędną wiedzę techniczną, która jest niezbędna przy realizacji zamówień dla przemysłu, mniejszych firm, a także obsługi osób prywatnych.
         </p>
     </section>
 
     <section class="section section--numbers">
-        <h2 class="section--numbers__header">
+        <h2 class="section--numbers__header" data-aos="flip-up">
             Jak wygląda współpraca z nami?
         </h2>
         <main class="section--numbers__main">
-            <section class="section--numbers__item section--numbers__item--aboutUs">
+            <section class="section--numbers__item section--numbers__item--aboutUs" data-aos="zoom-in">
                 <img class="section--numbers__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/consultant.svg'; ?>" alt="kontakt" />
                 <span class="section--numbers__label section--numbers__label--aboutUs">
                     Kontakt
@@ -29,7 +29,7 @@ get_header();
 
             <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-            <section class="section--numbers__item section--numbers__item--aboutUs">
+            <section class="section--numbers__item section--numbers__item--aboutUs" data-aos="zoom-in">
                 <img class="section--numbers__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/hands.svg'; ?>" alt="doradztwo" />
                 <span class="section--numbers__label section--numbers__label--aboutUs">
                     Doradztwo
@@ -41,7 +41,7 @@ get_header();
 
             <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-            <section class="section--numbers__item section--numbers__item--aboutUs">
+            <section class="section--numbers__item section--numbers__item--aboutUs" data-aos="zoom-in">
                 <img class="section--numbers__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/check-box.svg'; ?>" alt="kontakt" />
                 <span class="section--numbers__label section--numbers__label--aboutUs">
                     Doradztwo
@@ -54,15 +54,15 @@ get_header();
     </section>
 
     <section class="section section--b2b">
-        <h2 class="section__header center">
+        <h2 class="section__header center" data-aos="flip-up">
             Współpraca B2B
         </h2>
-        <p class="section--page__text">
+        <p class="section--page__text" data-aos="flip-up">
             Serdecznie zapraszamy do współpracy B2B wszystkie firmy, które realizują inwestycje budowlane, bądź planują remont swojego obiektu.
         </p>
 
         <section class="section--flex">
-            <section class="section--flex__section">
+            <section class="section--flex__section" data-aos="fade-right">
                 <h3 class="section--flex__section__header">
                     Co zyskasz na współpracy z nami?
                 </h3>
@@ -87,18 +87,18 @@ get_header();
                     </li>
                 </ul>
             </section>
-            <figure class="section--flex__section">
+            <figure class="section--flex__section" data-aos="fade-left">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/benmarokna-logotyp.png'; ?>" alt="benmar-okna-logo" />
             </figure>
         </section>
     </section>
 
     <section class="section section--numbers">
-        <h2 class="section--numbers__header">
+        <h2 class="section--numbers__header" data-aos="flip-up">
             BENMAR OKNA w liczbach
         </h2>
         <main class="section--numbers__main">
-            <section class="section--numbers__item">
+            <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     100+
                 </span>
@@ -109,7 +109,7 @@ get_header();
 
             <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-            <section class="section--numbers__item">
+            <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     23
                 </span>
@@ -120,7 +120,7 @@ get_header();
 
             <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-            <section class="section--numbers__item">
+            <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     16
                 </span>
@@ -132,15 +132,15 @@ get_header();
     </section>
 
     <section class="section section--margin">
-        <h2 class="section__header center">
+        <h2 class="section__header center" data-aos="flip-up">
             Co cechuje nasz zespół?
         </h2>
-        <p class="section--page__text--small center">
+        <p class="section--page__text--small center" data-aos="fade-up">
             Nasi pracownicy mają za sobą lata doświadczeń w swoim fachu. Jednak mimo to dbamy by stale podnosili swoje kwalifikacje. Jest to niezmiernie ważne, by świadczyć usługi na najwyższym poziomie.
         </p>
 
         <section class="section--flex section--flex--aboutTeam">
-            <article class="section--flex__section section--flex__section--article">
+            <article class="section--flex__section section--flex__section--article" data-aos="fade-right">
                 <section class="section__aboutTeam__item">
                     <h3 class="section__aboutTeam__item__header">
                         Zaangażowanie
@@ -166,16 +166,16 @@ get_header();
                     </p>
                 </section>
             </article>
-            <figure class="section--flex__section">
+            <figure class="section--flex__section" data-aos="fade-left">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/about-us.png'; ?>" alt="o-nas" />
             </figure>
         </section>
 
         <section class="flex marginTop">
-            <a class="button--red button--margin" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+            <a class="button--red button--margin button--hover" data-aos="flip-up" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
                 Sprawdź naszą ofertę
             </a>
-            <a class="button--red button--margin" href="<?php echo get_home_url() . '#kontakt'; ?>">
+            <a class="button--red button--margin button--hover" data-aos="flip-up" href="<?php echo get_home_url() . '#kontakt'; ?>">
                 Skontaktuj się z nami
             </a>
         </section>

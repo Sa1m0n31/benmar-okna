@@ -1,3 +1,9 @@
+/* AOS */
+AOS.init({
+    delay: 100,
+    duration: 600
+});
+
 /* Partners carousel */
 const partnersCarousel = new Siema({
     selector: ".partnersCarousel",
@@ -40,3 +46,41 @@ const toggleMobileMenu = () => {
         mobileMenuCloseImg.style.display = "none";
     }
 }
+
+/* Form submit */
+const formEl = document.querySelector(".wpcf7-form");
+const formAfterSubmitEl = document.querySelector(".form__afterSubmit");
+
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    console.log("submit");
+    afterSubmit();
+});
+
+document.addEventListener( 'wpcf7mailinvalid', function( event ) {
+    console.log("submit");
+    afterSubmit();
+});
+
+document.addEventListener( 'wpcf7mailfailed', function( event ) {
+    console.log("submit");
+    afterSubmit();
+});
+
+document.addEventListener( 'wpcf7mailspam', function( event ) {
+    console.log("spam");
+    afterSubmit();
+});
+
+const afterSubmit = () => {
+    formEl.style.display = "none";
+    formAfterSubmitEl.style.display = "flex";
+}
+
+document.addEventListener("click", () => {
+    const formErrors = document.querySelectorAll(".wpcf7-not-valid-tip");
+    if(formErrors.length) {
+        formErrors.forEach((item) => {
+            item.style.display = "none";
+        });
+    }
+});

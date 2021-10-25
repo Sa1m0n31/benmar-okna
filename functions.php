@@ -140,12 +140,16 @@ add_action( 'widgets_init', 'benmarokna_widgets_init' );
  * Enqueue scripts and styles.
  */
 function benmarokna_scripts() {
-	wp_enqueue_style( 'benmarokna-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'benmarokna-mobile', get_stylesheet_directory_uri() . '/mobile.css', array(), _S_VERSION );
+	wp_enqueue_style( 'benmarokna-style', get_stylesheet_uri() . '?n=2', array('aos-css'), _S_VERSION );
+	wp_enqueue_style( 'benmarokna-mobile', get_stylesheet_directory_uri() . '/mobile.css?n=6', array(), _S_VERSION );
 
 	wp_style_add_data( 'benmarokna-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'benmarokna-main', get_template_directory_uri() . '/js/main.js', array('benmarokna-siema'), _S_VERSION, true );
+    /* AOS */
+    wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
+    wp_enqueue_style('aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
+
+	wp_enqueue_script( 'benmarokna-main', get_template_directory_uri() . '/js/main.js?n=1', array('benmarokna-siema', 'aos-js'), _S_VERSION, true );
 	wp_enqueue_script( 'benmarokna-siema', get_template_directory_uri() . '/js/siema.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

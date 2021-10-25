@@ -32,6 +32,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 :root {
     --primary: #C12A21;
+    --hover: #A01910;
     --greyDark: #8B8B8B;
     --greyLight: #C8C8C8;
 }
@@ -45,6 +46,10 @@ html {
     margin: auto;
 }
 
+.section, .hero__content, .hero__offer, .footer {
+    max-width: 90vw;
+}
+
 .container {
     overflow-x: hidden;
     position: relative;
@@ -56,6 +61,7 @@ button, a {
     border: none;
     outline: none;
     text-decoration: none;
+    transition: .2s all;
 }
 
 .d-mobile {
@@ -99,7 +105,7 @@ button, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px clamp(20px, 8vw, calc(100vw - 1600px));
+    padding: 50px clamp(20px, 8vw, calc(100vw - 1450px));
     z-index: 10;
     width: 100%;
     border-bottom: 5px solid var(--primary);
@@ -214,7 +220,7 @@ button, a {
     margin-top: 50px;
     color: #fff;
     max-width: 400px;
-    transition: .3s all;
+    transition: .3s all !important;
 }
 
 .button--hero:hover {
@@ -270,6 +276,10 @@ button, a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero__offer__item__button:hover {
+    background: var(--hover);
 }
 
 /* About us section */
@@ -398,7 +408,7 @@ button, a {
 }
 
 /* Contact form */
-.form {
+form {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -434,8 +444,8 @@ button, a {
     outline: none !important;
 }
 
-.input::placeholder {
-
+.wpcf7-form > p {
+    width: 75% !important;
 }
 
 .form__textarea {
@@ -491,7 +501,7 @@ button, a {
 }
 
 .contact__item__text h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 25px;
 }
@@ -728,4 +738,54 @@ button, a {
     height: 400px;
     margin-top: -30px;
     margin-bottom: 40px;
+}
+
+.button--hover {
+    transition: .2s all;
+    cursor: pointer;
+}
+
+form .button--hover {
+    border: none !important;
+    outline: none !important;
+}
+
+.button--hover:hover {
+    background: var(--hover);
+}
+
+.form__afterSubmit {
+    width: 90%;
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 10px;
+}
+
+.form__afterSubmit__header {
+    text-align: center;
+}
+
+.form__afterSubmit__header:first-of-type {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.form__afterSubmit__header:last-of-type {
+    font-size: 17px;
+}
+
+.wpcf7-response-output {
+    display: none !important;
+}
+
+.wpcf7-not-valid-tip {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 300px;
+    background: #fff;
+    font-size: 12px;
 }

@@ -18,7 +18,7 @@ get_header();
 </main>
 
 <section class="hero__offer">
-    <section class="hero__offer__item">
+    <section class="hero__offer__item" data-aos="zoom-in">
         <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/windows.svg'; ?>" alt="okna" />
         <h3 class="hero__offer__item__header">
             Okna
@@ -26,11 +26,11 @@ get_header();
         <p class="hero__offer__item__text">
             Oferujemy wysokiej jakości okna. Cechą szczególną naszych produktów jest ich wysoka izolacja termiczna i akustyczna.
         </p>
-        <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+        <a class="hero__offer__item__button button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
             Sprawdź ofertę
         </a>
     </section>
-    <section class="hero__offer__item">
+    <section class="hero__offer__item" data-aos="zoom-in">
         <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/door.svg'; ?>" alt="drzwi" />
         <h3 class="hero__offer__item__header">
             Drzwi
@@ -38,11 +38,11 @@ get_header();
         <p class="hero__offer__item__text">
             Sprzedawane przez nas drzwi są doskonale wyizolowane cieplnie i akustycznie. Prezentują wysoką estetykę wykonania.
         </p>
-        <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+        <a class="hero__offer__item__button button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
             Sprawdź ofertę
         </a>
     </section>
-    <section class="hero__offer__item">
+    <section class="hero__offer__item" data-aos="zoom-in">
         <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fence.svg'; ?>" alt="ogrodzenia" />
         <h3 class="hero__offer__item__header">
             Ogrodzenia
@@ -50,11 +50,11 @@ get_header();
         <p class="hero__offer__item__text">
             Oferowane przez nas ogrodzenia cenione produkty przez konsumenta. Gwarantują wysoką jakość i trwałość na lata.
         </p>
-        <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+        <a class="hero__offer__item__button button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
             Sprawdź ofertę
         </a>
     </section>
-    <section class="hero__offer__item">
+    <section class="hero__offer__item" data-aos="zoom-in">
         <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/garage.svg'; ?>" alt="okna" />
         <h3 class="hero__offer__item__header">
             Bramy garażowe
@@ -62,14 +62,14 @@ get_header();
         <p class="hero__offer__item__text">
             Proponujemy bezpieczne bramy garażowe i automatykę do bram, która sprawi, że obsługa bramy będzie jeszcze łatwiejsza.
         </p>
-        <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+        <a class="hero__offer__item__button button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
             Sprawdź ofertę
         </a>
     </section>
 </section>
 
 <section class="section section--aboutUs">
-    <article class="section--aboutUs__left">
+    <article class="section--aboutUs__left" data-aos="fade-right">
         <h3 class="section--aboutUs__header">
             Dlaczego warto nam zaufać?
         </h3>
@@ -79,21 +79,21 @@ get_header();
         <p class="section--aboutUs__text">
             Zajmujemy się głównie sprzedażą i instalacją systemów okiennych, drzwi, bram garażowych, ogrodzeń, rolet, systemów tarasowych czy aluminiowych. Od ponad 10 lat działamy aktywnie na rynku lokalnym. Obsługując klientów z Województwa Kujawsko-Pomorskiego, Warmińsko-Mazurskiego i Mazowieckiego. Stawiamy na sprawdzone rozwiązania i wysokiej jakości produkty. Właśnie dlatego nasi klienci, są zadowoleni z naszych usług i chętnie nas polecają.
         </p>
-        <a class="hero__offer__item__button button--aboutUsSection" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
+        <a class="hero__offer__item__button button--aboutUsSection button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
             Dowiedz się więcej
         </a>
     </article>
-    <figure class="section--aboutUs__imgWrapper">
+    <figure class="section--aboutUs__imgWrapper" data-aos="fade-left">
         <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/okna.png'; ?>" alt="benmar-okna" />
     </figure>
 </section>
 
 <section class="section section--numbers">
-    <h2 class="section--numbers__header">
+    <h2 class="section--numbers__header" data-aos="flip-up">
         BENMAR OKNA w liczbach
     </h2>
     <main class="section--numbers__main">
-        <section class="section--numbers__item">
+        <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     100+
                 </span>
@@ -104,7 +104,7 @@ get_header();
 
         <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-        <section class="section--numbers__item">
+        <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     23
                 </span>
@@ -115,7 +115,7 @@ get_header();
 
         <img class="section--numbers__x" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/x.png'; ?>" alt="x" />
 
-        <section class="section--numbers__item">
+        <section class="section--numbers__item" data-aos="zoom-in">
                 <span class="section--numbers__number">
                     16
                 </span>
@@ -127,18 +127,18 @@ get_header();
 </section>
 
 <section class="section section--partners">
-    <h2 class="section--aboutUs__header firstHeader">
+    <h2 class="section--aboutUs__header firstHeader" data-aos="flip-up">
         Nasi partnerzy
     </h2>
-    <h3 class="secondHeader">
+    <h3 class="secondHeader" data-aos="flip-up">
         Dobieramy dostawców do Twoich potrzeb
     </h3>
     <main class="section--partners__main">
-        <button class="section--partners__arrow" onclick="partnersCarouselPrev()">
+        <button class="section--partners__arrow" data-aos="fade-right" onclick="partnersCarouselPrev()">
             <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/circle_left.svg'; ?>" alt="poprzedni" />
         </button>
 
-        <main class="partnersCarousel">
+        <main class="partnersCarousel" data-aos="zoom-in">
             <figure class="partnersCarouselImgWrapper">
                 <img class="partnersCarousel__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/Hormann.png'; ?>" alt="hormann" />
             </figure>
@@ -159,7 +159,7 @@ get_header();
             </figure>
         </main>
 
-        <button class="section--partners__arrow" onclick="partnersCarouselNext()">
+        <button class="section--partners__arrow" data-aos="fade-left" onclick="partnersCarouselNext()">
             <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/circle_right.svg'; ?>" alt="nastepny" />
         </button>
     </main>
@@ -167,34 +167,25 @@ get_header();
 
 <section class="section section--form">
     <span id="kontakt"></span>
-    <h2 class="section--aboutUs__header firstHeader">
+    <h2 class="section--aboutUs__header firstHeader" data-aos="flip-up">
         Masz pytania? Napisz do nas
     </h2>
-    <h3 class="secondHeader">
+    <h3 class="secondHeader" data-aos="flip-up">
         Skorzystaj z poniższego formularza kontaktowego.
     </h3>
 
-    <form class="form">
-        <section class="form__inputs">
-            <label>
-                <input class="input"
-                       placeholder="Imię i nazwisko" />
-            </label>
-            <label>
-                <input class="input"
-                       placeholder="Adres e-mail" />
-            </label>
-            <label>
-                <input class="input"
-                       placeholder="Numer telefonu" />
-            </label>
-        </section>
-        <textarea class="form__textarea" placeholder="Treść wiadomości..."></textarea>
+    <?php
+        echo do_shortcode('[contact-form-7 id="13" title="Formularz 1"]');
+    ?>
 
-        <button class="form__submit">
-            Wyślij zapytanie
-        </button>
-    </form>
+    <div class="form__afterSubmit">
+        <h3 class="form__afterSubmit__header">
+            Formularz został wysłany
+        </h3>
+        <h3 class="form__afterSubmit__header">
+            Odpowiemy najszybciej jak to możliwe
+        </h3>
+    </div>
 </section>
 
 <section class="section section--contact">
@@ -202,7 +193,7 @@ get_header();
         Dane kontaktowe
     </h2>
     <main class="contact__main">
-        <section class="contact__item">
+        <section class="contact__item" data-aos="fade-up">
             <img class="contact__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/info.svg'; ?>" alt="info" />
             <main class="contact__item__text">
                 <h3>
@@ -217,7 +208,7 @@ get_header();
             </main>
         </section>
 
-        <section class="contact__item">
+        <section class="contact__item" data-aos="fade-up">
             <img class="contact__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/home.svg'; ?>" alt="home" />
             <main class="contact__item__text">
                 <h3>
@@ -235,7 +226,7 @@ get_header();
             </main>
         </section>
 
-        <section class="contact__item">
+        <section class="contact__item" data-aos="fade-up">
             <img class="contact__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/phone.svg'; ?>" alt="kontakt" />
             <main class="contact__item__text">
                 <h3>
@@ -248,7 +239,7 @@ get_header();
         </section>
     </main>
 </section>
-<section class="section map">
+<section class="section map" data-aos="zoom-in">
     <?php echo do_shortcode('[wpgmza id="1"]'); ?>
 </section>
 

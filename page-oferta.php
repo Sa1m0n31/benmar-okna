@@ -4,16 +4,16 @@ get_header();
 
 <main class="page">
     <section class="section">
-        <h1 class="section__header">
+        <h1 class="section__header" data-aos="flip-up">
             O firmie
         </h1>
-        <p class="section--page__text">
+        <p class="section--page__text" data-aos="fade-right">
             Od ponad 10 lat dostarczamy okna, drzwi, ogrodzenia i bramy dla firm i osób prywatnych. Naszym motto jest wysoka jakość i trwałość naszych produktów i montaży. Posiadamy nie tylko doświadczenie, ale również niezbędną wiedzę techniczną, która jest niezbędna przy realizacji zamówień dla przemysłu, mniejszych firm, a także obsługi osób prywatnych.
         </p>
     </section>
 
     <section class="hero__offer hero__offer--page">
-        <section class="hero__offer__item">
+        <section class="hero__offer__item" data-aos="zoom-in">
             <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/windows.svg'; ?>" alt="okna" />
             <h3 class="hero__offer__item__header">
                 Okna
@@ -25,7 +25,7 @@ get_header();
                 Sprawdź ofertę
             </a>
         </section>
-        <section class="hero__offer__item">
+        <section class="hero__offer__item" data-aos="zoom-in">
             <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/door.svg'; ?>" alt="drzwi" />
             <h3 class="hero__offer__item__header">
                 Drzwi
@@ -37,7 +37,7 @@ get_header();
                 Sprawdź ofertę
             </a>
         </section>
-        <section class="hero__offer__item">
+        <section class="hero__offer__item" data-aos="zoom-in">
             <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fence.svg'; ?>" alt="ogrodzenia" />
             <h3 class="hero__offer__item__header">
                 Ogrodzenia
@@ -49,7 +49,7 @@ get_header();
                 Sprawdź ofertę
             </a>
         </section>
-        <section class="hero__offer__item">
+        <section class="hero__offer__item" data-aos="zoom-in">
             <img class="hero__offer__item__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/garage.svg'; ?>" alt="okna" />
             <h3 class="hero__offer__item__header">
                 Bramy garażowe
@@ -64,14 +64,14 @@ get_header();
     </section>
 
     <section class="section section--b2b section--list">
-        <h2 class="section__header center">
+        <h2 class="section__header center" data-aos="flip-up">
             Dostawcy
         </h2>
-        <p class="section--page__text">
+        <p class="section--page__text" data-aos="fade-up">
             Odnieśliśmy sukces między innymi ze względu na sprawdzonych partnerów i dostawców. To właśnie, dzięki takim firmom jak Hormann czy AdamS jesteśmy w stanie zapewnić Państwu:
         </p>
 
-        <section class="section">
+        <section class="section" data-aos="fade-up">
             <section class="section--flex__section section__redList--offer">
                 <h3 class="section--flex__section__header">
                     Co zyskasz na współpracy z nami?
@@ -98,18 +98,18 @@ get_header();
     </section>
 
     <section class="section section--partners">
-        <h2 class="section--aboutUs__header firstHeader">
+        <h2 class="section--aboutUs__header firstHeader" data-aos="flip-up">
             Nasi partnerzy
         </h2>
-        <h3 class="secondHeader">
+        <h3 class="secondHeader" data-aos="flip-up">
             Dobieramy dostawców do Twoich potrzeb
         </h3>
         <main class="section--partners__main">
-            <button class="section--partners__arrow" onclick="partnersCarouselPrev()">
+            <button class="section--partners__arrow" data-aos="fade-right" onclick="partnersCarouselPrev()">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/circle_left.svg'; ?>" alt="poprzedni" />
             </button>
 
-            <main class="partnersCarousel">
+            <main class="partnersCarousel" data-aos="zoom-in">
                 <figure class="partnersCarouselImgWrapper">
                     <img class="partnersCarousel__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/Hormann.png'; ?>" alt="hormann" />
                 </figure>
@@ -130,7 +130,7 @@ get_header();
                 </figure>
             </main>
 
-            <button class="section--partners__arrow" onclick="partnersCarouselNext()">
+            <button class="section--partners__arrow" data-aos="fade-left" onclick="partnersCarouselNext()">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/circle_right.svg'; ?>" alt="nastepny" />
             </button>
         </main>
