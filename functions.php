@@ -143,7 +143,10 @@ function benmarokna_scripts() {
 	wp_enqueue_style( 'benmarokna-style', get_stylesheet_uri() . '?n=2', array('aos-css'), _S_VERSION );
 	wp_enqueue_style( 'benmarokna-mobile', get_stylesheet_directory_uri() . '/mobile.css?n=6', array(), _S_VERSION );
 
-	wp_style_add_data( 'benmarokna-style', 'rtl', 'replace' );
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap', false );
+    wp_enqueue_script("google-maps", "https://maps.googleapis.com/maps/api/js?key=AIzaSyApCLw41Ys5mGI9Na62DRNnJc5IZS2zAeo&callback=initMap", array(), "1.0", true);
+
+    wp_style_add_data( 'benmarokna-style', 'rtl', 'replace' );
 
     /* AOS */
     wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
@@ -184,4 +187,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-

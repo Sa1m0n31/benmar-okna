@@ -80,7 +80,7 @@ get_header();
             Zajmujemy się głównie sprzedażą i instalacją systemów okiennych, drzwi, bram garażowych, ogrodzeń, rolet, systemów tarasowych czy aluminiowych. Od ponad 10 lat działamy aktywnie na rynku lokalnym. Obsługując klientów z Województwa Kujawsko-Pomorskiego, Warmińsko-Mazurskiego i Mazowieckiego. Stawiamy na sprawdzone rozwiązania i wysokiej jakości produkty. Właśnie dlatego nasi klienci, są zadowoleni z naszych usług i chętnie nas polecają.
         </p>
         <a class="hero__offer__item__button button--aboutUsSection button--hover" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
-            Dowiedz się więcej
+            Dowiedz się więcej o nas
         </a>
     </article>
     <figure class="section--aboutUs__imgWrapper" data-aos="fade-left">
@@ -175,7 +175,7 @@ get_header();
     </h3>
 
     <?php
-        echo do_shortcode('[contact-form-7 id="13" title="Formularz 1"]');
+        echo do_shortcode('[contact-form-7 id="52" title="Formularz 1"]');
     ?>
 
     <div class="form__afterSubmit">
@@ -240,7 +240,7 @@ get_header();
     </main>
 </section>
 <section class="section map" data-aos="zoom-in">
-    <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+    <?php echo do_shortcode('[google_map_easy id="1"]'); ?>
 </section>
 
 <?php

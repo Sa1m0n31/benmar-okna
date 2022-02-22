@@ -5,14 +5,17 @@ AOS.init({
 });
 
 /* Partners carousel */
-const partnersCarousel = new Siema({
-    selector: ".partnersCarousel",
-    loop: true,
-    perPage: {
-        996: 3,
-        100: 1
-    }
-});
+let partnersCarousel;
+if(document.querySelector('.partnersCarousel')) {
+    partnersCarousel = new Siema({
+        selector: ".partnersCarousel",
+        loop: true,
+        perPage: {
+            996: 3,
+            100: 1
+        }
+    });
+}
 
 const partnersCarouselNext = () => {
     partnersCarousel.next();

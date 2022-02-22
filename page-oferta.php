@@ -21,7 +21,7 @@ get_header();
             <p class="hero__offer__item__text">
                 Oferujemy wysokiej jakości okna. Cechą szczególną naszych produktów jest ich wysoka izolacja termiczna i akustyczna.
             </p>
-            <a class="hero__offer__item__button" href="/">
+            <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Okna')->ID); ?>">
                 Sprawdź ofertę
             </a>
         </section>
@@ -33,7 +33,7 @@ get_header();
             <p class="hero__offer__item__text">
                 Sprzedawane przez nas drzwi są doskonale wyizolowane cieplnie i akustycznie. Prezentują wysoką estetykę wykonania.
             </p>
-            <a class="hero__offer__item__button" href="/">
+            <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Drzwi')->ID); ?>">
                 Sprawdź ofertę
             </a>
         </section>
@@ -45,7 +45,7 @@ get_header();
             <p class="hero__offer__item__text">
                 Oferowane przez nas ogrodzenia cenione produkty przez konsumenta. Gwarantują wysoką jakość i trwałość na lata.
             </p>
-            <a class="hero__offer__item__button" href="/">
+            <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Ogrodzenia')->ID); ?>">
                 Sprawdź ofertę
             </a>
         </section>
@@ -57,7 +57,7 @@ get_header();
             <p class="hero__offer__item__text">
                 Proponujemy bezpieczne bramy garażowe i automatykę do bram, która sprawi, że obsługa bramy będzie jeszcze łatwiejsza.
             </p>
-            <a class="hero__offer__item__button" href="/">
+            <a class="hero__offer__item__button" href="<?php echo get_page_link(get_page_by_title('Bramy garażowe')->ID); ?>">
                 Sprawdź ofertę
             </a>
         </section>

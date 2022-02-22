@@ -50,11 +50,6 @@
                     </a>
                 </li>
                 <li class="header__menu__item">
-                    <a class="header__menu__link" href="<?php echo get_page_link(get_page_by_title('Nasze realizacje')->ID); ?>">
-                        Nasze realizacje
-                    </a>
-                </li>
-                <li class="header__menu__item">
                     <a class="header__menu__link" href="<?php echo home_url() . '#kontakt'; ?>">
                         Kontakt
                     </a>
@@ -92,11 +87,6 @@
                 <li class="mobileMenu__list__item">
                     <a class="mobileMenu__list__link" href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
                         Oferta
-                    </a>
-                </li>
-                <li class="mobileMenu__list__item">
-                    <a class="mobileMenu__list__link" href="<?php echo get_page_link(get_page_by_title('Nasze realizacje')->ID); ?>">
-                        Nasze realizacje
                     </a>
                 </li>
             </ul>

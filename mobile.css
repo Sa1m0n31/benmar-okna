@@ -107,6 +107,33 @@
         flex-direction: column;
     }
 
+    .page {
+        margin-top: 0;
+    }
+
+    .windows {
+        flex-direction: column;
+    }
+
+    .windows__item {
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .windows__item--50,
+    .windows--doors .windows__item {
+        width: 100%;
+    }
+
+    .windows__item__header {
+        font-size: 19px;
+    }
+
+    .windows__item__text {
+        font-size: 14px;
+    }
+
     .section--flex figure {
         margin-top: 50px;
         max-width: 90%;
@@ -220,6 +247,18 @@
         background: var(--primary);
     }
 
+    form {
+        max-width: 90vw;
+    }
+
+    .wpcf7-form {
+        flex-direction: column;
+    }
+
+    .wpcf7-form > p {
+        width: 100% !important;
+    }
+
     .img--80 {
         width: 50%;
         filter: brightness(0) invert(1);
@@ -301,6 +340,10 @@
 
     .section--aboutUs {
         margin-top: 30px;
+    }
+
+    .footer__col {
+        width: 100%;
     }
 
     .footer {

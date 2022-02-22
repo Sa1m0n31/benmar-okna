@@ -15,11 +15,6 @@
     <section class="footer__col">
         <ul class="footer__col__list">
             <li>
-                <a href="<?php echo get_page_link(get_page_by_title('Nasze realizacje')->ID); ?>">
-                    Nasze realizacje
-                </a>
-            </li>
-            <li>
                 <a href="<?php echo get_page_link(get_page_by_title('Oferta')->ID); ?>">
                     Oferta
                 </a>
@@ -27,6 +22,11 @@
             <li>
                 <a href="<?php echo get_page_link(get_page_by_title('O nas')->ID); ?>">
                     O nas
+                </a>
+            </li>
+            <li>
+                <a href="/#kontakt">
+                    Kontakt
                 </a>
             </li>
         </ul>
@@ -42,18 +42,8 @@
     <section class="footer__col footer__col--right">
         <ul class="footer__col__list">
             <li>
-                <a href="/">
-                    Nasze realizacje
-                </a>
-            </li>
-            <li>
-                <a href="/">
-                    Oferta
-                </a>
-            </li>
-            <li>
-                <a href="/">
-                    Kontakt
+                <a href="<?php echo get_page_link(get_page_by_title('Polityka prywatności')->ID); ?>">
+                    Polityka prywatności
                 </a>
             </li>
         </ul>

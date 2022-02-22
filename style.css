@@ -246,7 +246,7 @@ button, a {
     justify-content: space-evenly;
     align-items: center;
     width: 20%;
-    height: 480px;
+    height: 500px;
 }
 
 .hero__offer__item__img {
@@ -272,10 +272,11 @@ button, a {
     background: var(--primary);
     color: #fff;
     text-align: center;
-    font-size: 21px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .hero__offer__item__button:hover {
@@ -788,4 +789,111 @@ form .button--hover {
     width: 300px;
     background: #fff;
     font-size: 12px;
+}
+
+.windows {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.windows__item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90vw;
+}
+
+.windows__item__header {
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 30px auto 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.windows__item__header::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 5px;
+    background: var(--primary);
+}
+
+.windows__item__text {
+    text-align: center;
+}
+
+.windows__item__img {
+    height: 300px;
+    width: auto;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section__header--center {
+    margin-top: 30px !important;
+    text-align: center !important;
+    font-size: 28px;
+}
+
+.windows--doors {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.windows--doors .windows__item {
+    width: 16%;
+}
+
+.windows--doors .windows__item__img {
+    height: auto;
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+}
+
+.windows__item--50 {
+    width: 45%;
+}
+
+.windows__item__header--noBorder::before {
+    display: none;
+}
+
+.section--text {
+    margin: 40px auto;
+}
+
+.windows__item__img--table {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.section__aboutTeam__item__text {
+    margin-top: -10px;
+}
+
+.section--b2b .section--flex {
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+.section--numbers__img {
+    max-width: 80px;
+}
+
+.footer__col {
+    width: 20%;
+}
+
+.section--page__text--mb {
+    margin-bottom: 40px;
 }
